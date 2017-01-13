@@ -1,0 +1,292 @@
+/*JUST STYLE....*/
+        /*MENU*/
+        .menu {
+            font-family: "Raleway";
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 99;
+            background: #333;
+            -webkit-transition: all .3s;
+            transition: all .3s;
+            text-align: center;
+            -webkit-box-shadow: 0px 6px 30px -8px rgba(0, 0, 0, 0.82);
+            -moz-box-shadow: 0px 6px 30px -8px rgba(0, 0, 0, 0.82);
+            box-shadow: 0px 6px 30px -8px rgba(0, 0, 0, 0.82);
+        }
+        
+        .menu ul {
+            padding: 0;
+            list-style-type: none;
+            display: inline-block;
+            margin: 0;
+        }
+        
+        .menu ul li {
+            display: inline-block;
+            font-size: 1.1em;
+        }
+        
+        .menu ul li a {
+            display: block;
+            padding: 20px 20px;
+            color: #fdfdfd;
+            text-transform: uppercase;
+            cursor: pointer;
+            border-bottom: 3px solid transparent;
+            -webkit-transition: all.3s;
+            transition: all.3s;
+        }
+        
+        .menu ul li a:hover,
+        .menu ul li a.active {
+            text-decoration: none;
+        }
+        
+        .menu ul li a:focus {
+            outline: 0!important;
+            text-decoration: none;
+        }
+        
+        .menu ul li a.active {
+            border-color: #fafafa;
+        }
+        /*DIVS*/
+        
+        .main {
+            padding-top: 45px;
+            text-align: center;
+        }
+        
+        h1 {
+            color: #fafafa;
+            padding: 10%;
+            margin: 0;
+            font-family: Roboto;
+            font-weight: 200;
+            font-size: 2.5em;
+        }
+        
+        .main div {
+            position: relative
+        }
+        
+        #landing {
+            background: #00309a;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to left, #00d2ff, #00309a);
+            background: -webkit-linear-gradient(right, #00d2ff, #00309a);
+            background: linear-gradient(to left, #00d2ff, #00309a);
+        }
+        
+        #landing h1 {
+            font-size: 3.5em;
+            top: initial;
+        }
+        
+        #about {
+            background: #FFF;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to left, #eee, #fff);
+            background: -webkit-linear-gradient(right, #eee, #fff);
+            background: linear-gradient(to left, #eee, #fff);
+            -webkit-transition: all.5s;
+            transition: all.5s;
+            -webkit-box-shadow: inset 0 0 30px -5px rgba(0, 0, 0, 0.82);
+            box-shadow: inset 0 0 30px -5px rgba(0, 0, 0, 0.82);
+        }
+        
+        #about h1 {
+            color: #333;
+        }
+        
+        #staff {
+            padding: 10%;
+            background: #a94442;
+            background: -webkit-linear-gradient(to left, #a94442, #c74310);
+            background: -webkit-linear-gradient(right, #a94442, #c74310);
+            background: linear-gradient(to left, #a94442, #c74310);
+        }
+        
+        #social {
+            padding: 10%;
+            background: #FFF;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to left, #eee, #fff);
+            background: -webkit-linear-gradient(right, #eee, #fff);
+            background: linear-gradient(to left, #eee, #fff);
+            -webkit-transition: all.5s;
+            transition: all.5s;
+            -webkit-box-shadow: inset 0 0 30px -5px rgba(0, 0, 0, 0.82);
+            box-shadow: inset 0 0 30px -5px rgba(0, 0, 0, 0.82);
+        }
+        
+        #social h1 {
+            padding: 2%;
+            color: #333;
+        }
+
+        #social a {
+            display: inline-block;
+            padding: 2% 8%;
+            font-family: "Roboto";
+            font-size: 15em;
+            color: #333;
+        }
+        
+        #info {
+            padding: 5%;
+            background: #4caf50;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to left, #4caf50, #0d350f);
+            background: -webkit-linear-gradient(right, #4caf50, #0d350f);
+            background: linear-gradient(to left, #4caf50, #0d350f);
+        }
+        
+        #info h1{
+            padding: 5%;
+        }
+        
+        #info ul{
+            padding: 10%;
+        }
+        
+        * {
+            box-sizing: border-box;
+        }
+        
+        .background {
+            position: fixed;
+            z-index: -100;
+            width: 100%;
+            height: 100%;
+            background: -webkit-linear-gradient(330deg, #F45C67 1%, #F5845E 33%, #F6925B 50%, #F45B6E 100%);
+            background: linear-gradient(-240deg, #F45C67 1%, #F5845E 33%, #F6925B 50%, #F45B6E 100%);
+        }
+        
+        .tile-wrap {
+            margin: 0 auto;
+            box-shadow: 0px 0px 40px 4px rgba(203, 80, 80, 0.59);
+            background: #F9FFFF;
+            max-width: 600px;
+            padding: 0;
+            -webkit-box-shadow: 0px 6px 30px -8px rgba(0, 0, 0, 0.82);
+            -moz-box-shadow: 0px 6px 30px -8px rgba(0, 0, 0, 0.82);
+            box-shadow: 0px 6px 30px -8px rgba(0, 0, 0, 0.82);
+        }
+        
+        .tile {
+            background: #F9FFFF;
+            border: 1px solid #F1F1F1;
+            list-style: none;
+            text-align: center;
+            -webkit-transition: .3s;
+            transition: .3s;
+            z-index: 0;
+        }
+        
+        .tile:nth-of-type(1),
+        .tile:nth-of-type(4) {
+            left: 0;
+        }
+        
+        .tile:nth-of-type(2),
+        .tile:nth-of-type(5) {
+            left: 220px;
+        }
+        
+        .tile:nth-of-type(3),
+        .tile:nth-of-type(6) {
+            left: 440px;
+        }
+        
+        .tile:nth-of-type(4),
+        .tile:nth-of-type(5),
+        .tile:nth-of-type(6) {
+            top: 220px;
+        }
+        
+        .tile__inner {
+            position: relative;
+            display: block;
+            width: 100%;
+            height: 100%;
+            padding: 50px 0;
+            text-decoration: none;
+            color: #BEC2C3;
+        }
+        
+        .tile:hover {
+            -webkit-transform-origin: center;
+            transform-origin: center;
+            -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+            box-shadow: 0px 0px 40px 1px rgba(244, 106, 104, 0.48);
+            z-index: 10;
+            text-decoration: none;
+        }
+
+        .tile__inner:hover {
+            text-decoration: none;
+        }
+        
+        .tile__icon {
+            border-radius: 50%;
+            width: 70%;
+            max-width: 190px;
+            height: auto;
+            max-height: 190px;
+            margin: 2%;
+            -webkit-box-shadow: 0px 6px 30px -8px rgba(0, 0, 0, 0.82);
+            -moz-box-shadow: 0px 6px 30px -8px rgba(0, 0, 0, 0.82);
+            box-shadow: 0px 6px 30px -8px rgba(0, 0, 0, 0.82);
+        }
+        
+        .tile__title {
+            text-decoration: none;
+            font-size: 2em;
+            font-family: 'Roboto';
+            font-weight: 300;
+            color: #333;
+        }
+        
+        .tile__subtitle {
+            text-decoration: none;
+            font-size: 1.75em;
+            font-family: 'Roboto';
+            color: #333;
+            font-weight: bold;
+        }
+        
+        ul#countdown {
+            width: 50%;
+            margin: 0 auto;
+            padding: 15px 0 20px 0;
+            color: #fff;
+            border: 1px solid #fff;
+            border-width: 1px 0;
+            overflow: hidden;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+        }
+        
+        ul#countdown li {
+            margin: 0 -3px 0 0;
+            padding: 0;
+            display: inline-block;
+            width: 25%;
+            font-size: 72px;
+            font-size: 6vw;
+            text-align: center;
+        }
+        
+        ul#countdown li .label {
+            color: #fff;
+            font-size: 18px;
+            font-size: 1.5vw;
+            text-transform: uppercase;
+        }
+        #map {
+            height: 600px;
+            width: 100%;
+       }
