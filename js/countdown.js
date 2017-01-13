@@ -2,7 +2,7 @@
  * GLOBAL VARS
  * -------------------------- */
 // The date you want to count down to
-var targetDate = new Date("2017/01/17 18:30:00");   
+var targetDate = new Date("2017/01/18 18:30:00");   
 
 // Other date related variables
 var days = 0;
@@ -39,7 +39,7 @@ function timeToLaunch(){
     var diff = Math.floor(diff);  
     
    if (diff < 1){
-    Math.abs(Math.floor(diff));
+    var diff = Math.abs(diff);
     // Check number of days until target
     days = Math.floor(diff/(24*60*60));
     sec = diff - days * 24*60*60;
